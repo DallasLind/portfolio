@@ -5,7 +5,7 @@
   margin-top: 5em;
   position: relative;
   color: black;
-  padding-bottom: 1.5em;
+  padding-bottom: 2em;
 }
 
 .Square {
@@ -49,7 +49,29 @@ p {
 }
 
 .CoTrip:hover::after {
-  content: "A platform where single mothers can create groups and organize trips with different tags and locations. Group Project of 23 organized with Agile methodology. Created with React, CSS3, Storybook, Django, and PostgreSQL";
+  content: "Social media/experience platform. Group Project of 23 organized with Agile methodology. Created with React, CSS3, Storybook, Django, and PostgreSQL";
   opacity: 80%;
   color: black;
+}
+
+@media only screen and (max-width: 667px) {
+  .Square {
+    display: flex;
+    flex-wrap: wrap;
+    grid-column-gap: 10em;
+  }
+
+  img {
+    width: 21em;
+    height: 12em;
+  }
+
+  .Square-3 {
+    display: none;
+  }
+
+  .Projects-Sect {
+    margin-top: 1em;
+    margin-bottom: 9em;
+  }
 }

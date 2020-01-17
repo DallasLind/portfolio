@@ -1,5 +1,7 @@
 .Footer {
-  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   justify-content: center;
   background-color: #a50948;
   padding-top: 1em;
@@ -9,4 +11,12 @@
 a {
   text-decoration: none;
   color: cornflowerblue;
+}
+
+@media only screen and (max-width: 667px) {
+  .Footer {
+    width: 100%;
+    left: 0;
+    margin-bottom: 2em;
+  }
 }
