@@ -108,6 +108,7 @@ body {
 
   .name {
     text-align: center;
+    margin-top: 1.3em;
     margin-left: 2.5em;
   }
 }

@@ -2,7 +2,7 @@
   height: 100%;
   width: 100%;
   text-align: center;
-  margin-top: 5em;
+  margin-top: 1.5em;
   position: relative;
   color: black;
   padding-bottom: 2em;
@@ -24,6 +24,7 @@ img {
 
 .Pro {
   color: black;
+  margin-bottom: 1.5em;
 }
 
 p {
@@ -32,25 +33,21 @@ p {
 
 .Halloween:hover::after {
   content: "A multiple choice quiz created with HTML5, CSS3, and vanilla JavaScript";
-  opacity: 80%;
   color: black;
 }
 
 .BGM:hover::after {
   content: "Social Meetup App dedicated to Board Games with full CRUD capability! Group project. Created with React, Express, MongoDB, Storybook, and Google Maps API";
-  opacity: 80%;
   color: black;
 }
 
 .API:hover::after {
   content: "An API detailing breweries in the DC, Virginia, and Maryland area. Created with MongoDB, Node.js, Express, and Mongoose queries";
-  opacity: 80%;
   color: black;
 }
 
 .CoTrip:hover::after {
   content: "Social media/experience platform. Group Project of 23 organized with Agile methodology. Created with React, CSS3, Storybook, Django, and PostgreSQL";
-  opacity: 80%;
   color: black;
 }
 
@@ -58,7 +55,6 @@ p {
   .Square {
     display: flex;
     flex-wrap: wrap;
-    grid-column-gap: 10em;
   }
 
   img {
