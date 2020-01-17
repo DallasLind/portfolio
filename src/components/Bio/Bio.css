@@ -1,0 +1,16 @@
+.Bio {
+  font-size: 1.1em;
+  letter-spacing: 0.09em;
+  margin-left: 8em;
+  margin-right: 8em;
+  line-height: 1.7em;
+}
+
+.Bio:after {
+  content: "";
+  display: block;
+  border-bottom: 5px solid black;
+  margin: 0 auto;
+  width: 60%;
+  padding-bottom: 1em;
+}

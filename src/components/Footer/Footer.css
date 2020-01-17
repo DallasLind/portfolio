@@ -1,0 +1,12 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+  background-color: #a50948;
+  padding-top: 1em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+}

@@ -1,0 +1,23 @@
+.Profile {
+  text-align: center;
+  padding-bottom: 1em;
+  margin-top: 4em;
+}
+
+.image {
+  width: 15em;
+  height: 15em;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  border: 5px solid black;
+}
+
+.Profile:after {
+  content: "";
+  display: block;
+  border-bottom: 5px solid black;
+  margin: 0 auto;
+  width: 80%;
+}
