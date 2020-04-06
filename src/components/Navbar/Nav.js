@@ -1,8 +1,8 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
-import Resume from "./Resume001.pdf";
+import Resume from "./DallasL-Resume.pdf";
 
-export default props => {
+export default (props) => {
   return (
     // Pass on our props
     <Menu {...props}>
