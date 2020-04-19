@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="name">Dallas Lind</h1>
+        <h1 className="me">Dallas Lind</h1>
         <Nav pageWrapId={"page-wrap"} outerContainerId={"App"} />
       </header>
       <Profile />

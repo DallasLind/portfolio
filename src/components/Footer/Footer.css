@@ -14,10 +14,18 @@ a {
   color: cornflowerblue;
 }
 
-@media only screen and (max-width: 667px) {
+.hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 650px) {
   .Footer {
     width: 100%;
     left: 0;
     margin-top: 5em;
+  }
+
+  .hidden {
+    display: inline;
   }
 }

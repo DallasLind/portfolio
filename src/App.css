@@ -91,7 +91,7 @@ body {
   background: rgba(0, 0, 0, 0.3);
 }
 
-.name {
+.me {
   text-align: end;
   margin-right: 2em;
 }
@@ -106,7 +106,7 @@ body {
     position: relative;
   }
 
-  .name {
+  .me {
     text-align: center;
     margin-top: 1.3em;
     margin-left: 2.5em;

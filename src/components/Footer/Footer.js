@@ -9,6 +9,10 @@ class Footer extends Component {
           Can Best Be Reached Via LinkedIn or Email at{" "}
           <a href="mailto:mcgraw.dallas@gmail.com">Mcgraw.dallas@gmail.com</a>
         </p>
+        <p class="hidden">
+          Hi! If you're seeing this, the carousel is still being worked on for
+          mobile breakpoints. Please come back again soon to see updates!
+        </p>
       </div>
     );
   }

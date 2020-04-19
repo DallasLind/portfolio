@@ -1,73 +1,19 @@
-.Projects-Sect {
-  height: 100%;
-  width: 100%;
+.title {
   text-align: center;
-  margin-top: 1.5em;
+}
+
+.pro-image {
+  padding-top: 0.5em;
+  margin-right: 0.5em;
   position: relative;
+}
+
+.name {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  margin-left: -2em;
   color: black;
-  padding-bottom: 2em;
-}
-
-.Square {
-  display: grid;
-  grid-template-columns: 32% 32%;
-  grid-column-gap: 8em;
-  grid-row-gap: 3em;
-  justify-content: center;
-  align-content: center;
-}
-
-img {
-  width: 25em;
-  height: 15em;
-}
-
-.Pro {
-  color: black;
-  margin-bottom: 1.5em;
-}
-
-p {
-  margin-top: 0.2em;
-}
-
-.Halloween:hover::after {
-  content: "A multiple choice quiz created with HTML5, CSS3, and vanilla JavaScript";
-  color: black;
-}
-
-.BGM:hover::after {
-  content: "Social Meetup App dedicated to Board Games with full CRUD capability! Group project. Created with React, Express, MongoDB, Storybook, and Google Maps API";
-  color: black;
-}
-
-.API:hover::after {
-  content: "An API detailing breweries in the DC, Virginia, and Maryland area. Created with MongoDB, Node.js, Express, and Mongoose queries";
-  color: black;
-}
-
-.CoTrip:hover::after {
-  content: "Social media/experience platform. Group Project of 23 organized with Agile methodology. Created with React, CSS3, Storybook, Django, and PostgreSQL";
-  color: black;
-}
-
-@media only screen and (max-width: 667px) {
-  .Square {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  img {
-    width: 21em;
-    height: 12em;
-  }
-
-  .Square-3 {
-    display: none;
-  }
-
-  .Projects-Sect {
-    margin-top: 1em;
-    margin-bottom: 9em;
-  }
 }
