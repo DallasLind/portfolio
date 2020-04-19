@@ -11,7 +11,7 @@ class Bio extends Component {
           Bachelor of Arts in General Studies Focusing in Finance and Accounting
           from Southern New Hampshire and completed the Software Engineering
           Immersive Program from General Assembly in December 2019. I'm
-          currently pursuing a Masters of Science in Information Systems
+          currently pursuing a Masters of Science in Information Technology
           Focusing in Software Engineering from University of Maryland Global
           Campus. I'm open to new opportunities!
         </p>
