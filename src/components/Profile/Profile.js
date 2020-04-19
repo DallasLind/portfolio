@@ -10,7 +10,7 @@ class Profile extends Component {
           <img className="image" src={Pic} />
         </div>
         <div id="title">
-          <h1>Full-Stack Engineer</h1>
+          <h1>Software Engineer</h1>
         </div>
         <h2>Washington, D.C.</h2>
       </div>
