@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./App.css";
 import Nav from "./components/Navbar/Nav.js";
 import Bio from "./components/Bio/Bio.js";
